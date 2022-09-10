@@ -6,8 +6,7 @@ class persona {
       (this.apellido = apellido),
       (this.correo = correo),
       (this.tipoUsuario = tipoUsuario);
-      (this.horasv = horasv);
-      (this.licencia = licencia);
+
   }
   
 }
