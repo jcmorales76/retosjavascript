@@ -13,8 +13,8 @@ class persona {
 
 const registro = [];
 for (let index = 0; index < empleado; index++) {
-  const nombre = prompt("Ingresa nombre de empleado: ");
-  const apellido = prompt("Ingrese su apellido: ");
+  const nombre = prompt("Ingresa nombre de empleado: ").toUpperCase();
+  const apellido = prompt("Ingrese su apellido: ").toUpperCase();
   const correo = prompt("Ingrese tu correo: ");
   const tipoUsuario = parseInt(prompt( `Elige un tipo de Usuario: "1. Piloto" - "2. Mecanico"`));
 
@@ -43,12 +43,12 @@ let caso = prompt("Condicion de busqueda: 1-Por Nombres y 2-Por Apellidos ")
 
 switch (caso) {
     case "1":
-        let nombre = prompt("Buscar - Ingrese nombre del la persona");
+        let nombre = prompt("Buscar - Ingrese nombre del la persona").toUpperCase();
         let busqueda = registro.find(item => item.nombre === nombre);
         console.log(busqueda);
         break;
     case "2":
-        let apellido = prompt("Buscar - Ingrese Apellido del la persona");
+        let apellido = prompt("Buscar - Ingrese Apellido del la persona").toUpperCase();
         let busqueda2 = registro.find(item => item.apellido === apellido);
         console.log(busqueda2);
         break;
