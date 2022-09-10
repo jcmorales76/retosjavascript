@@ -20,10 +20,10 @@ for (let index = 0; index < empleado; index++) {
 
 
     if (tipoUsuario === 1){
-        alert(`Registro ingresado de ${nombre} ${apellido} ${correo} Usted es PILOTO`)
+        alert(`Registro ingresado: ${nombre} ${apellido}, correo electronico ${correo} Usted es PILOTO`)
         
     }else if(tipoUsuario === 2){
-        alert(`Registro ingresado de ${nombre} ${apellido} ${correo} Usted es MECANICO`) 
+        alert(`Registro ingresado: ${nombre} ${apellido}, correo electronico ${correo} Usted es MECANICO`) 
         
     }else{
         alert("Usted ingreso dato incorrecto")
