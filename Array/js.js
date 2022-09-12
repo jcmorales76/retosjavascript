@@ -56,6 +56,7 @@ switch (caso) {
         console.log(`Ingrese una opcion correcta`)
 }
 
+//Se puso una data para la prueba de filtrado, pq tambien se podria hacer con el ARRAY REGISTRO
 const personas = [
   { id: 1, nombre: "Juan", apellido: "Morales", tipoUsuario: "Piloto" },
   { id: 2, nombre: "Andres", apellido: "Castro", tipoUsuario: "Mecanico" },
