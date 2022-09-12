@@ -56,7 +56,28 @@ switch (caso) {
         console.log(`Ingrese una opcion correcta`)
 }
 
-
+const personas = [
+  { id: 1, nombre: "Juan", apellido: "Morales", tipoUsuario: "Piloto" },
+  { id: 2, nombre: "Andres", apellido: "Castro", tipoUsuario: "Mecanico" },
+  { id: 3, nombre: "Paul", apellido: "Morales", tipoUsuario: "Piloto" },
+  { id: 4, nombre: "Ignacio", apellido: "Del Gato", tipoUsuario: "Mecanico" },
+  { id: 5, nombre: "Sara", apellido: "Molino", tipoUsuario: "Mecanico" },
+  { id: 6, nombre: "Jocy", apellido: "Ferreyra", tipoUsuario: "Piloto" },
+  { id: 7, nombre: "Percy", apellido: "Alvites", tipoUsuario: "Piloto" },
+  { id: 8, nombre: "Carlos", apellido: "Casasola", tipoUsuario: "Mecanico" },
+];
+//filter filtra bajo al condicion indicada
+let tipoUsuario = prompt("Tipo de Usuario - Piloto o Mecanico");
+let filtrados = personas.filter(item => item.tipoUsuario == tipoUsuario);
+filtrados.forEach(item => {
+  let reporte = `
+    Id: ${item.id}
+    Nombre: ${item.nombre}
+    Apellido: ${item.apellido}
+    Precio: $${item.tipoUsuario}
+  `;
+  alert(reporte);
+}) 
 
 
 
