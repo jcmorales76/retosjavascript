@@ -1,7 +1,7 @@
 const empleado = parseInt(prompt("¿Cuántos empleados deseas Registrar? "));
 
 class persona {
-  constructor({ nombre, apellido, correo, tipoUsuario, horasv, licencia }) {
+  constructor({ nombre, apellido, correo, tipoUsuario }) {
     (this.nombre = nombre),
       (this.apellido = apellido),
       (this.correo = correo),
