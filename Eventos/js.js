@@ -1,12 +1,12 @@
 const personas = [
     { id: 1, nombre: "Juan", apellido: "Morales", tipoUsuario: "Piloto" },
-    { id: 2, nombre: "Andres", apellido: "Castro", tipoUsuario: "Mecanico" },
-    { id: 3, nombre: "Paul", apellido: "Morales", tipoUsuario: "Piloto" },
-    { id: 4, nombre: "Ignacio", apellido: "Del Gato", tipoUsuario: "Mecanico" },
-    { id: 5, nombre: "Sara", apellido: "Molino", tipoUsuario: "Mecanico" },
-    { id: 6, nombre: "Jocy", apellido: "Ferreyra", tipoUsuario: "Piloto" },
-    { id: 7, nombre: "Percy", apellido: "Alvites", tipoUsuario: "Piloto" },
-    { id: 8, nombre: "Carlos", apellido: "Casasola", tipoUsuario: "Mecanico" },
+    // { id: 2, nombre: "Andres", apellido: "Castro", tipoUsuario: "Mecanico" },
+    // { id: 3, nombre: "Paul", apellido: "Morales", tipoUsuario: "Piloto" },
+    // { id: 4, nombre: "Ignacio", apellido: "Del Gato", tipoUsuario: "Mecanico" },
+    // { id: 5, nombre: "Sara", apellido: "Molino", tipoUsuario: "Mecanico" },
+    // { id: 6, nombre: "Jocy", apellido: "Ferreyra", tipoUsuario: "Piloto" },
+    // { id: 7, nombre: "Percy", apellido: "Alvites", tipoUsuario: "Piloto" },
+    // { id: 8, nombre: "Carlos", apellido: "Casasola", tipoUsuario: "Mecanico" },
   ];
 
 const ingresoDatos=()=>{
